@@ -1,0 +1,127 @@
+
+ #aboutme{
+     margin: 6% 0% 0 1% ;
+ }
+ h1,h2,h3,h4,title{
+     font-family: poppins;
+ }
+ h1,h2{
+     color:deepskyblue;
+ }
+ h1{
+     font-size: 30px;
+ }
+ h2{
+     font-size: 25px;
+ }
+ h3,h4{
+     color:maroon;
+ }
+ h3{
+     font-size: 20px;
+ }
+ .navbar{
+     background: white;
+     border-bottom: 0;
+ }
+ .aboutme-right{
+     padding-top: 15%;
+      text-align: center;
+ }
+  p{
+     font-size: 18px;
+     font-family: roboto;
+ }
+ #vision{
+     background: lightgrey;
+     padding: 3%; 
+     text-align: center;
+ }
+ .iot{
+     padding-left:2%;
+ }
+ .iot p,.crm p{
+     text-justify:center;
+ }
+ #edu,#projects,#paper,#tech{
+     margin:2%;
+ }
+ .tbody{
+     text-align: center;
+ }
+ .paper-right {
+     text-align: center;
+     padding-top: 10%;
+ }
+ #tech ul{
+     list-style: none;
+ }
+ #tech .list{
+     padding-top: 0.1%;
+ }
+ .footer{
+     background: black;
+     color:white;
+     bottom: 0;
+ }
+ .footer h3{
+     text-align: center;
+     padding-top: 2%;
+     padding-bottom: 2%;
+ }
+ @media only screen and  (max-width: 1000px) {
+     .aboutme-left img{
+         width:100%;
+     }
+     h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h3{
+       font-size: 40px;
+    }
+    .aboutme-right{
+        padding-top:0;
+    }
+    p{
+        font-size: 35px;
+    }
+     .paper-left img{
+          width:100%;
+     }
+     .paper-right{
+         padding-top: 0;
+     }
+ }
+
+ @media only screen and (min-width:1000px) and (max-width: 1200px) {
+    .aboutme-left img{
+        width:100%;
+    }
+    h1{
+       font-size: 45px;
+   }
+   h2{
+       font-size: 38px;
+   }
+   h3{
+      font-size: 30px;
+   }
+   .aboutme-right{
+       padding-top:10%;
+   }
+   p{
+       font-size: 26px;
+   }
+    .paper-left img{
+         width:100%;
+    }
+    .paper-right{
+        padding-top: 0;
+    }
+}
+
+ 
+
