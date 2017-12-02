@@ -2,6 +2,9 @@
  #aboutme{
      margin: 6% 0% 0 1% ;
  }
+ body{
+     margin-bottom: 0;
+ }
  h1,h2,h3,h4,title{
      font-family: poppins;
  }
